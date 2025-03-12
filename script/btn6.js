@@ -1,6 +1,7 @@
 document.getElementById('btn6').addEventListener('click', function () {
     this.disabled = true;
     alert('Board Updated Successfully');
+    alert('Congratulation!!! You have completed all the task');
     const taskNumber = getElementById('task-number')
     const addTask = getInnerTextById('task-add')
     let sum = addTask + 1
