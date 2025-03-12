@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#F4F7FF]">
+    <section class="bg-[#FFFFFF]  rounded-xl mx-10 translate-y-4 shadow-sm">
+        <nav class="p-3 flex justify-between">
+            <a class="mx-3 flex gap-2 translate-y-2" href="http://" target="_blank" rel="noopener noreferrer">
+                <img class="h-10 w-10" src="assets/logo.png" alt="" srcset="">
+                <h1 class="text-3xl">Dev<span class="font-extrabold">Board</span></h1>
+            </a>
+            <div>
+                <button class="btn btn-primary">Back to Desk</button>
+            </div>
+        </nav>
+    </section>
+    <section class="mt-10  p-10">
+        <h1 class="text-center text-black font-bold text-3xl">Blogs</h1>
+        <div class="bg-white p-5 mt-6 space-y-6 rounded-xl">
+            <h2 class="text-xl font-bold ">Question-1: What are the different ways to select an element in the DOM?</h2>
+            <p class="font-normal text-lg">The ways of selecting element in dom i know so far are
+                getElementById,getElementByClass,getElementByTagName,querySelector,querySelectorAll. The most important
+                thing put document. before write this to select ana element in the Dom.</p>
+        </div>
+        <div class="bg-white p-5 mt-6 space-y-6 rounded-xl">
+            <h2 class="text-xl font-bold">Question-2: What is the difference between innerHTML, innerText, and
+                textContent ?</h2>
+            <p class="font-normal text-lg">InnerHtml tag is used to write when I need to return or set html content into
+                an element including htmltags
+                InnerText is used to set the visible text content of the element. textContent is used to set the text
+                content of an element including all child nodes.
+            </p>
+        </div>
+        <div class="bg-white p-5 mt-6 space-y-6 rounded-xl">
+            <h2 class="text-xl font-bold">Question-3: What is event delegation in the DOM?</h2>
+            <p class="font-normal text-lg">It is a technique where you attach a single event listener to a parent
+                element to handle events for all of its child elements. This is useful for dynamically added elements.We
+                use addeventListener so far. document.callparent by id or class.addeventlistener('action',function())
+            </p>
+        </div>
+        <div class="bg-white p-5 mt-6 space-y-6 rounded-xl">
+            <h2 class="text-xl font-bold">What is event bubbling in the DOM?</h2>
+            <p class="font-normal text-lg">In this case the event is first handled by the innermost element and by its
+                parent elements</p>
+        </div>
+        <div class="bg-white p-5 mt-6 space-y-6 rounded-xl">
+            <h2 class="text-xl font-bold">How do you create, add, and remove elements using JavaScript?</h2>
+            <p class="font-normal text-lg">some ways we know that let newElement =
+                document.createelement(element(p,li,div)) add element const parenet = document.getElementById('parent
+                Id') than parent.apaenChild(newElement) we can use removeChilde for removing and also we can use
+                setAttribute </p>
+        </div>
+    </section>
+
+</body>
+
+</html>
